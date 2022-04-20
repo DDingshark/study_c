@@ -9,7 +9,7 @@ int main(void)
 	printf("%d\n", ++a);
 	printf("%d\n", a++);
 	printf("%d\n", a);
-	//++a, a++ ÀÇ Â÷ÀÌ-> ´õÇÏ°í a , ¼öÇàÇÏ°í a¸¦ ´õÇØ¶ó
+	//++a, a++ ì˜ ì°¨ì´-> ë”í•˜ê³  a , ìˆ˜í–‰í•˜ê³  aë¥¼ ë”í•´ë¼
 
 	int i = 1;
 	printf("Hello World %d\n", i++);
@@ -24,25 +24,25 @@ int main(void)
 	printf("Hello World %d\n", i++);
 
 
-	//¹İº¹¹® for while do while
-	//for (¼±¾ğ ; Á¶°Ç ; Áõ°¨){}
+	//ë°˜ë³µë¬¸ for while do while
+	//for (ì„ ì–¸ ; ì¡°ê±´ ; ì¦ê°){}
 	for (int n = 1; n <= 10; n++)
 	{
 		printf("HelloWorld %d\n", n);
 	}
 
-	//while(Á¶°Ç){}
+	//while(ì¡°ê±´){}
 	i = 1;
 	while (i <= 10)
 	{
 		printf("Hello World %d\n", i);
-		i++;//È¤Àº À§¿¡¼­ i++
+		i++;//í˜¹ì€ ìœ„ì—ì„œ i++
 	}
 
 	//do while
 
 
-	//do{} while(Á¶°Ç);
+	//do{} while(ì¡°ê±´);
 
 	i = 1;
 	do {
@@ -53,15 +53,15 @@ int main(void)
 
 	for (i = 1; i <= 3; i++)
 	{
-		printf("Ã¹¹øÂ° ¹İº¹¹® : %d\n", i);
+		printf("ì²«ë²ˆì§¸ ë°˜ë³µë¬¸ : %d\n", i);
 
 		for (int j = 1; j <= 9; j++)
 		{
-			printf("		µÎ¹øÂ° ¹İº¹¹® : %d\n", j);
+			printf("		ë‘ë²ˆì§¸ ë°˜ë³µë¬¸ : %d\n", j);
 		}
 	}
 
-	//±¸±¸´Ü
+	//êµ¬êµ¬ë‹¨
 
 	for (i = 1; i <= 9; i++)
 	{
@@ -71,9 +71,9 @@ int main(void)
 		}
 	}
 
-	//°Å²Ù·Î º°
+	//ê±°ê¾¸ë¡œ ë³„
 	int k;
-	printf("º°ÀÇ ½ÃÀÛÁ¡À» ÀÔ·ÂÇÏ½Ã¿À : ");
+	printf("ë³„ì˜ ì‹œì‘ì ì„ ì…ë ¥í•˜ì‹œì˜¤ : ");
 	scanf_s("%d", &k);
 
 	for (int j = k; j >= 1; j--)
