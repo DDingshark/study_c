@@ -16,7 +16,7 @@ void main()
 {
 	int num;
 	int sum_result = 0;
-	printf("20º¸´Ù ÀÛÀº ¾çÀÇ Á¤¼ö¸¦ ÀÔ·Â ÇÏ½Ã¿À");
+	printf("20ë³´ë‹¤ ìž‘ì€ ì–‘ì˜ ì •ìˆ˜ë¥¼ ìž…ë ¥ í•˜ì‹œì˜¤");
 	scanf_s("%d", &num);
 	for (int i = num; i >= 1; i--)
 	{
