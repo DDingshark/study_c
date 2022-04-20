@@ -1,11 +1,11 @@
-//201801667 ¼Û¸íÁÖ
+//201801667 Â¼Ã›Â¸Ã­ÃÃ–
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
 int main(void)
 {
-	//rand()%¹üÀ§
-	srand(time(NULL));//³­¼öÃÊ±âÈ­
+	//rand()%Â¹Ã¼Ã€Â§
+	srand(time(NULL));//Â³Â­Â¼Ã¶ÃƒÃŠÂ±Ã¢ÃˆÂ­
 	for (int i = 1; i <= 5; i++)
 	{
 		printf("%d\n", (rand() % 6) + 1);
