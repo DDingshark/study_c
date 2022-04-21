@@ -10,7 +10,7 @@ int main(void)
 
 	double x;
 	scanf_s("%lf", &x);
-	printf("%f", x); // doubleÀº ÀÔ·ÂÇÒ¶© lf ¹ÞÀ»¶© ±×³É f
+	printf("%f", x); // doubleÃ€Âº Ã€Ã”Â·Ã‚Ã‡Ã’Â¶Â© lf Â¹ÃžÃ€Â»Â¶Â© Â±Ã—Â³Ã‰ f
 	float;
 	scanf_s("%f", &x);
 	printf("%f", x);
