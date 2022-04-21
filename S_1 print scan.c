@@ -24,7 +24,7 @@ int main_printfscanf(void)
 	printf("%d X %d = %d\n", 3, 10, 3 * 10);
 
 	//scanf
-	//키보드 입력을 받아서 저장 
+	//키보드 입력을 받아서 저장 tab speace enter 로 구분
 
 	int input;
 	printf("값을 입력하시오 : ");
